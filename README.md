@@ -28,8 +28,8 @@ const outputFile = "path/to/file";
 // requires an input file to be passed has also an optional second argument to specify is execution should be verbose.
 const ffmpeg = new FFMPEG(inputFile,verbose);
 
-// returns extracted video metadata.
-console.log(ffmpeg.metadata);
+// returns extracted video metadata an is by nature asynchronious.
+ffmpeg.metadata.then(console.log).catch(console.error);
 
 // change the file you're working with.
 ffmpeg.changeFilePath(inputFile);

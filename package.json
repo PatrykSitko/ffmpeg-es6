@@ -1,6 +1,6 @@
 {
   "name": "ffmpeg-es6",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "An implementation of FFMPEG in ES6.",
   "type": "module",
   "main": "ffmpeg.main.mjs",
