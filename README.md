@@ -72,7 +72,7 @@ ffmpeg.selectFormat(FFMPEG.format["360p"]);
 
 // ffmpeg.save is used to save the requested video format to and output file and is async.
 // returns FFMPEG binary pipe stdout or stderr statement.
-console.log(ffmpeg.save(outputFile));
+ffmpeg.save(outputFile).then(console.log).catch(console.error);
 ```
 
 Hope you'll enjoy using this ffmpeg implementation written in JavaScript ES6 as myself did.
