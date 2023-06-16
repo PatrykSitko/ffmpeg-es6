@@ -1,8 +1,9 @@
 {
   "name": "ffmpeg-es6",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An implementation of FFMPEG in ES6.",
-  "main": "main.mjs",
+  "type": "module",
+  "main": "ffmpeg.main.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/PatrykSitko/ffmpeg-es6/issues"
   },
-  "homepage": "https://github.com/PatrykSitko/ffmpeg-es6#readme"
+  "homepage": "https://github.com/PatrykSitko/ffmpeg-es6#readme",
+  "dependencies": {
+    "file-system-es6": "^1.0.2"
+  }
 }
