@@ -1,4 +1,6 @@
-# FFMPEG-ES6
+[![Node.js Package](https://github.com/PatrykSitko/ffmpeg-es6/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/PatrykSitko/ffmpeg-es6/actions/workflows/npm-publish.yml)
+
+# npm i ffmpeg-es6
 
 An implementation of FFMPEG written in ES6.
 
